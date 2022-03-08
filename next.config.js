@@ -3,7 +3,7 @@
  */
  const nextConfig = {
   images: {
-    loader: "default",
+    loader: "cloudinary",
     domains: ["localhost", "res.cloudinary.com"],
   },
 }
