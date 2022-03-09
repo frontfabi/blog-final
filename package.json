@@ -12,6 +12,8 @@
     "lint:fix": "next lint --fix"
   },
   "dependencies": {
+    "@cloudinary/react": "^1.1.0",
+    "@cloudinary/url-gen": "^1.6.0",
     "moment": "^2.24.0",
     "next": "^11.0.0",
     "qs": "^6.10.1",
