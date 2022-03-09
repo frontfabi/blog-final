@@ -5,7 +5,7 @@ const Image = ({ image, style }) => {
   const { provider_metadata } = image.data.attributes
   const cld = new Cloudinary({
     cloud: {
-      cloudName: process.env.CLOUDINARY_NAME
+      cloudName: process.env.CLOUDINARY_NAME || 'blogstrapinext'
     }
   }); 
   
